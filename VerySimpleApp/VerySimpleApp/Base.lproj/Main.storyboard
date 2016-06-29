@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VerySimpleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-psy" translatesAutoresizingMaskIntoConstraints="NO" id="mMP-hf-IWo">
+                                <rect key="frame" x="-21" y="-36" width="642" height="804"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1f-xD-RAg">
+                                <rect key="frame" x="216" y="20" width="168" height="30"/>
+                                <state key="normal" title="Make me Cool"/>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ML1-Cs-gnl"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="psylocke" translatesAutoresizingMaskIntoConstraints="NO" id="l2R-69-AgT">
+                                <rect key="frame" x="175" y="151" width="250" height="298"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="298" id="6w4-Tx-pat"/>
+                                    <constraint firstAttribute="width" constant="250" id="WGj-xs-aY9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="q1f-xD-RAg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FSH-tI-qr2"/>
+                            <constraint firstItem="l2R-69-AgT" firstAttribute="top" secondItem="q1f-xD-RAg" secondAttribute="bottom" constant="101" id="JXc-M4-tRJ"/>
+                            <constraint firstItem="l2R-69-AgT" firstAttribute="centerX" secondItem="q1f-xD-RAg" secondAttribute="centerX" id="KYU-rR-iNs"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="mMP-hf-IWo" secondAttribute="bottom" constant="-168" id="fne-eq-PhV"/>
+                            <constraint firstItem="mMP-hf-IWo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-36" id="kqX-4D-miU"/>
+                            <constraint firstItem="mMP-hf-IWo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-41" id="ktO-AL-2Nn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mMP-hf-IWo" secondAttribute="trailing" constant="-41" id="w0C-xo-xrt"/>
+                            <constraint firstItem="q1f-xD-RAg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="yKD-XM-spF"/>
+                        </constraints>
+                    </view>
+                    <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="bgPsylocke" destination="mMP-hf-IWo" id="AGT-a9-CNB"/>
+                        <outlet property="button" destination="q1f-xD-RAg" id="Gp8-re-bbO"/>
+                        <outlet property="psylockeImg" destination="l2R-69-AgT" id="4OS-NH-YmD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="492.5" y="506.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg-psy" width="639" height="800"/>
+        <image name="psylocke" width="446" height="640"/>
+    </resources>
+</document>
