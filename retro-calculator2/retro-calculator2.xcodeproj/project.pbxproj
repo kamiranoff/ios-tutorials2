@@ -12,6 +12,8 @@
 		0AFC52D51D26D5FA0016A118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC52D31D26D5FA0016A118 /* Main.storyboard */; };
 		0AFC52D71D26D5FA0016A118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC52D61D26D5FA0016A118 /* Assets.xcassets */; };
 		0AFC52DA1D26D5FA0016A118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC52D81D26D5FA0016A118 /* LaunchScreen.storyboard */; };
+		0AFC52E21D26DB340016A118 /* Pixel Bug.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC52E11D26DB340016A118 /* Pixel Bug.otf */; };
+		0AFC52E41D26E42B0016A118 /* nice-job.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0AFC52E31D26E42B0016A118 /* nice-job.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0AFC52D61D26D5FA0016A118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AFC52D91D26D5FA0016A118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AFC52DB1D26D5FA0016A118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFC52E11D26DB340016A118 /* Pixel Bug.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pixel Bug.otf"; sourceTree = "<group>"; };
+		0AFC52E31D26E42B0016A118 /* nice-job.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "nice-job.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		0AFC52CE1D26D5FA0016A118 /* retro-calculator2 */ = {
 			isa = PBXGroup;
 			children = (
+				0AFC52E11D26DB340016A118 /* Pixel Bug.otf */,
+				0AFC52E31D26E42B0016A118 /* nice-job.wav */,
 				0AFC52CF1D26D5FA0016A118 /* AppDelegate.swift */,
 				0AFC52D11D26D5FA0016A118 /* ViewController.swift */,
 				0AFC52D31D26D5FA0016A118 /* Main.storyboard */,
@@ -123,7 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFC52E21D26DB340016A118 /* Pixel Bug.otf in Resources */,
 				0AFC52DA1D26D5FA0016A118 /* LaunchScreen.storyboard in Resources */,
+				0AFC52E41D26E42B0016A118 /* nice-job.wav in Resources */,
 				0AFC52D71D26D5FA0016A118 /* Assets.xcassets in Resources */,
 				0AFC52D51D26D5FA0016A118 /* Main.storyboard in Resources */,
 			);
