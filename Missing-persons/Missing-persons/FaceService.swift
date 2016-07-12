@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import ProjectOxfordFace
+
+
+class FaceService {
+  static let instance = FaceService()
+  
+  let client = MPOFaceServiceClient(subscriptionKey:"142a041be98a4333b8b73571f9e6b351")
+}
